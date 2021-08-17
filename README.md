@@ -1,10 +1,11 @@
 # Decentralized Power Allocation and Beamforming Using Non-Convex Nash Game for Energy-Aware mmWave Networks
 
 ## Introduction
-This project provides the simulation code in Matlab for the research paper [Wang2021]. Please feel free to contact me for further information/discussion regarding the technical details and implementation. The full Matlab implementation will be updated/uploaded upon the end of the reviewing process for our submitted paper.
+This project provides the simulation code in Matlab for the research paper [Wang2021]. Please feel free to contact me for further information/discussion regarding the technical details and implementation.
 
 In this project, we focus on the problem of joint beamforming control and power allocation in the ad-hoc mmWave network. Over the shared spectrum, a number of multi-input-multi-output (MIMO) links attempt to minimize their supply power by simultaneously finding the locally optimal power allocation and beamformers in a self-interested manner. Our algorithm design is featured by separating the adaptation of power-levels and beamformer filters into two iterative sub-stages at each link, using a framework of generalized Nash game. For details about the theoretical proofs regarding the convergence of the two-stage algorithm, please refer to Sections III and IV of [Wang2021]. Several transmit beamforming schemes requiring different levels of information exchange are compared.
 
+**Note**: The full Matlab implementation is available upon request via email before the completion of the review for our submitted paper. Currently, Tx-beamforming modules and part of the channel generation module is available.
 
 ## How to Use
 The simulations can be started by running the .m files sarting with "main-".
